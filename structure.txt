@@ -1,0 +1,30 @@
+backend/
+│
+├── server.js
+├── package.json
+├── .env
+│
+├── config/
+│   └── db.js
+│
+├── models/
+│   ├── ResumeAnalysis.js
+│   └── InterviewerJob.js   ✅ (NEW)
+│
+├── routes/
+│   ├── analyzeRoutes.js
+│   └── jobRoutes.js        ✅ (Admin-side)
+│
+├── controllers/
+│   ├── analyzeController.js
+│   └── jobController.js    ✅
+│
+├── services/
+│   ├── pdfService.js
+│   └── aiService.js
+│
+├── middlewares/
+│   └── uploadMiddleware.js
+│
+└── uploads/
+    └── resumes/
